@@ -1,11 +1,13 @@
 nav {
     text-align: left; 
-    background:  #73103e;
     font: 50% arial, sans-serif;
     padding: 20px;
+    float: left;
+  }
+  img {
+    width: 50%;
   }
 
-  container {
-    display: flex;
-    flex-direction:row;
+  header {
+  text-align: center;
   }
