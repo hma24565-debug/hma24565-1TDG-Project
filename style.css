@@ -1,5 +1,11 @@
 nav {
     text-align: left; 
-    background: #ccc;
-    
+    background:  #73103e;
+    font: 50% arial, sans-serif;
+    padding: 20px;
+  }
+
+  container {
+    display: flex;
+    flex-direction:row;
   }
