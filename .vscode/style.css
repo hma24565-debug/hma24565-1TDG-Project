@@ -8,8 +8,12 @@ nav {
     background-color: #591133;
     color: white;
     width: 50px;
-    
+}
+  nav ul {
+      list-style-type: none;
+      padding: 0;
   }
+
   a {
     color: white;
     font: 50% arial, sans-serif;
@@ -33,8 +37,8 @@ h1{
   font-size: 60px;
 }
 
-body{
+
+article{
+  float:center;
   background-color:#ccaeb8;
 }
-
-
