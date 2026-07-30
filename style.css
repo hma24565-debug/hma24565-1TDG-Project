@@ -38,7 +38,14 @@ h1{
 }
 
 
-article{
-  float:center;
+body{
   background-color:#ccaeb8;
+}
+
+article{
+  float:left;
+}
+.container {
+  display:flex;
+  flex-direction: row;
 }
