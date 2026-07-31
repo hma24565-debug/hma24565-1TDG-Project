@@ -1,22 +1,16 @@
 nav {
-    text-align: left; 
-    
-    padding: 40px;
-    padding-right: 80px;
-    padding-bottom: 70px;
-    float: left;
-    background-color: #591133;
-    color: white;
-    width: 50px;
+  float: left;
+  background-color: #591133;
+  color: white;
+ 
 }
 
-  a {
-    color: white;
-    font: 50% arial, sans-serif;
-    font-size: medium;
-    text-align: left;
-    width: 50px;
-  }
+a {
+  color: white;
+  font: 50% arial, sans-serif;
+  font-size: medium;
+  width: 50px;
+}
   img {
     width: 20%;
   }
@@ -65,3 +59,4 @@ ul.topnav li a {
 ul.topnav li a:hover {
   background-color: #73103e;
   color: white;
+}
