@@ -9,10 +9,6 @@ nav {
     color: white;
     width: 50px;
 }
-  nav ul {
-      list-style-type: none;
-      padding: 0;
-  }
 
   a {
     color: white;
@@ -20,7 +16,6 @@ nav {
     font-size: medium;
     text-align: left;
     width: 50px;
-    border-radius: 20px;
   }
   img {
     width: 20%;
@@ -49,3 +44,24 @@ article{
   display:flex;
   flex-direction: row;
 }
+
+ul.topnav {
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #591133;
+}
+
+/* Style links in topnav */
+ul.topnav li a {
+  display: block;
+  color: #f1f1f1;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+ul.topnav li a:hover {
+  background-color: #73103e;
+  color: white;
