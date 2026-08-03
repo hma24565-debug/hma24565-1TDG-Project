@@ -1,4 +1,7 @@
 
+li{
+  border: 2px solid white;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -43,10 +46,10 @@ body{
   background-color:#ccaeb8;
 }
 
-article{
-  float:right;
-}
+
 .container {
-  display:flex;
-  flex-direction: row;
+  display: grid;
 }
+
+p {
+  width: 20%;
