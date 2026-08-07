@@ -27,34 +27,27 @@ li a:hover {
   color: white;
 }
   img {
-    width: 60%;
+    width: 30%;
   }
 
   header {
   text-align: center;
-  background-color: #73103e;
   padding: 40px;
   }
 
 h1{
-  color: white;
+
   font-size: 60px;
 }
 
 
-body{
-  background-color:#ccaeb8;
-}
-
 div.homepage {
-  width:100%;
   overflow:auto;
   display: flex;
   gap: 5px;
 }
 
-div.homepage div {
-  width:100%;  
+div.homepage div {  
   float:left;
   display: flex;
   text-align: center;
@@ -63,8 +56,52 @@ div.homepage div {
 }
 
 div.content {
-  width:80%;  
   float:left;
   display: flex;
   gap: 5px;
 }
+
+div.contactinfo {
+  overflow:auto;
+  display: flex;
+  gap: 5px;
+}
+
+div.contactinfo div {
+  float:left;
+  display: flex;
+  text-align: center;
+  gap: 5px;
+}
+
+div.about {
+  overflow:auto;
+  display: flex;
+  gap: 5px;
+}
+
+div.about div {
+  float:left;
+  display: flex;
+  text-align: center;
+  gap: 5px;
+}
+
+div.Pastwins {
+  display: inline;
+  overflow:auto;
+  gap: 5px;
+}
+
+div.Pastwins div {  
+  display: inline;
+  float:left;
+  text-align: center;
+  gap: 5px;
+}
+
+div.allstuff {
+  display: inline;
+  gap: 15px;
+}
+
