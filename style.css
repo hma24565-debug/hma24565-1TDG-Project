@@ -8,7 +8,7 @@ ul {
   padding: 0;
   width: 200px;
   background-color: #591133;
-  padding-bottom: 3%;
+  padding-bottom: 60%;
   padding-top: 5%;
 }
 
@@ -26,8 +26,9 @@ li a:hover {
   background-color:  #73103e;
   color: white;
 }
-  img {
-    width: 30%;
+img {
+  width:20%;
+    
   }
 
   header {
@@ -88,20 +89,23 @@ div.about div {
 }
 
 div.Pastwins {
-  display: inline;
+  display: flex;
   overflow:auto;
   gap: 5px;
 }
 
 div.Pastwins div {  
-  display: inline;
+  display: flex;
   float:left;
   text-align: center;
   gap: 5px;
 }
 
-div.allstuff {
-  display: inline;
-  gap: 15px;
+
+
+div.allstuff div{
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
 }
 
