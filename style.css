@@ -55,28 +55,22 @@ img {
     display: flex;
     bottom: 0;   
     left: 0;
-   
-
+    transform: scaleX(-1);
   }
   
-  
+
   body{
     background-color:#ccaeb8;
   }
 
   header {
-  
   padding-top: 50px;
   padding-bottom: 1px;
- 
-  
   }
 
 h1{
-
   font-size: 60px;
 }
-
 
 div.homepage {
   overflow:auto;
