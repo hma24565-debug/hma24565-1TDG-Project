@@ -64,6 +64,7 @@ img {
 
   body{
     background-color:#ccaeb8;
+    padding-bottom: 30%;
   }
 
   header {
@@ -111,6 +112,7 @@ div.about {
   overflow:auto;
   display: flex;
   gap: 5px;
+  width: 100%;
 }
 
 div.about div {
@@ -120,35 +122,43 @@ div.about div {
   gap: 5px;
 }
 
-div.Pastwins {
+section.Pastwins {
   overflow:auto;
   gap: 5px;
   width:40%;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: row;
 }
 
-div.header2{
+div.Pastwinstexts{
+  display: flex;
+  flex-direction: row;
+}
+
+h2{
   color: white;
   text-align:center;
   font-size: 30px;
   background-color: #591133;
 }
 
-div.pwcontent{
-  width:40%;
-  overflow:auto;
+div.pwcontent div{
   display: flex;
   flex-direction: column;
 }
 
-div.pwcontent div {
-  width:40%;  
-  float:left;
-  display: flex;
-  flex-direction: row;
-}
-
 img.tdg_img-1 {
   width: 70px;
+}
+
+div.juniordebatepic{
+  display: flex;
+  flex-direction: column; 
+}
+
+footer {
+  background-color: #591133;
+  padding: 10px;
+  text-align: center;
+  color: white;
 }
