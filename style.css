@@ -155,9 +155,25 @@ div.juniordebatepic{
   flex-direction: column; 
 }
 
-footer {
-  background-color: #591133;
-  padding: 10px;
-  text-align: center;
+footer p {
+  text-align: left;
   color: white;
+}
+
+div.waves {
+  position: sticky;
+  bottom: 0;
+  top: 20%;
+  width: 100%;
+  margin-top: 25%;
+  transform: scaleY(1.5)
+}
+
+body.pastwins {
+  margin:30%;
+}
+
+div.icon {
+  width: 15px;
+  height: 15px;
 }
